@@ -48,6 +48,18 @@ h5 {margin-bottom:12px;}
 .floatl {margin-left:10%;width:37.5%; float:left;}
 .floatr {margin-right:10%;width:37.5%;float:right;}
 
+
+.tavl {width:49%;float:left;
+}
+.tavr {width:49%;float:right;}
+.tavl > p, .tavr >p{font-size:.9em; font-style:oblique;}
+
+.tavnotes {
+	clear:both;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
 @media only screen and (max-width: 768px) {
 	#detailViewImages p {
 		margin-left:0; margin-right:0;
@@ -58,7 +70,7 @@ h5 {margin-bottom:12px;}
 	.subline {
 	width:100%;}
 
-	.floatl, .floatr {text-align:left;margin-left:0; margin-right:0; width:100%; float:none;}
+	.floatl, .floatr, .tavl, .tavr {text-align:left;margin-left:0; margin-right:0; width:100%; float:none;}
 }
 
 /*research::
