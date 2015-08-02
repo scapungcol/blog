@@ -32,6 +32,22 @@ img.vp{
 
 p.centered {text-align:center;}
 
+.lgweb {
+	float:left;
+	margin-right:40px;
+	width:500px;
+}
+
+.lgnotes {
+	padding-top:20px;
+	text-align:left;
+
+}
+
+h5 {margin-bottom:12px;}
+.floatl {margin-left:10%;width:37.5%; float:left;}
+.floatr {margin-right:10%;width:37.5%;float:right;}
+
 @media only screen and (max-width: 768px) {
 	#detailViewImages p {
 		margin-left:0; margin-right:0;
@@ -41,6 +57,8 @@ p.centered {text-align:center;}
 	}
 	.subline {
 	width:100%;}
+
+	.floatl, .floatr {text-align:left;margin-left:0; margin-right:0; width:100%; float:none;}
 }
 
 /*research::
