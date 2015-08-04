@@ -68,8 +68,10 @@ p.centered {text-align:center;}
 	padding-bottom:20px;
 }
 
+.showsmall {display:none;}
+
 @media only screen and (max-width: 768px) {
-	#detailViewImages p, ol li {
+	#detailViewImages p, ol.ptext li, ul.ptext li {
 		margin-left:0; margin-right:0;
 	}
 	img.research{
@@ -79,6 +81,10 @@ p.centered {text-align:center;}
 	width:100%;}
 
 	.floatl, .floatr, .tavl, .tavr {text-align:left;margin-left:0; margin-right:0; width:100%; float:none;}
+
+	.showsmall {display:block;}
+
+	.hidesmall{display:none;}
 }
 
 /*research::
