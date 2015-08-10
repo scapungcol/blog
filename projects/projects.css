@@ -3,6 +3,8 @@
 	margin-left:10%;margin-right:10%;
 }
 
+span.italic {font-style:oblique;}
+
 ol.ptext li, ul.ptext li {
     margin-left: 12.5%;
     margin-right:10%;
@@ -50,22 +52,45 @@ p.centered {text-align:center;}
 .lgnotes {
 	padding-top:20px;
 	text-align:left;
-
 }
 
 .floatl {margin-left:10%;width:37.5%; float:left;}
 .floatr {margin-right:10%;width:37.5%;float:right;}
 
-
-.tavl {width:49%;float:left;
+.teardown{
+	height:450px;
+	width:768px;
 }
+
+.tavl {width:49%;float:left;}
 .tavr {width:49%;float:right;}
-.tavl > p, .tavr >p{font-size:.9em; font-style:oblique;}
+.tavl > p, .tavr >p {font-size:.9em; font-style:oblique;}
+
+.bluesl {
+    float: left;
+	margin:0 5% 0 10%;
+    width: 39%;
+}
+
+.bluesr {
+	margin-right: 10%;
+    text-align: left;
+}
+
+.row {
+	margin-top:20px;
+}
+
+p#captioned {font-size:.9em; font-style:oblique; text-align:center;}
 
 .tavnotes {
 	clear:both;
 	padding-top:20px;
 	padding-bottom:20px;
+}
+
+img#menustart, img#menufinal {
+	height:480px;
 }
 
 .showsmall {display:none;}
@@ -77,10 +102,14 @@ p.centered {text-align:center;}
 	img.research{
 		padding:12px 0px;
 	}
-	.subline {
-	width:100%;}
+	.subline, .teardown {
+		width:100%;
+	}
 
-	.floatl, .floatr, .tavl, .tavr {text-align:left;margin-left:0; margin-right:0; width:100%; float:none;}
+	img#menustart, img#menufinal {
+		width:100%;height:auto;
+	}
+	.floatl, .floatr, .tavl, .tavr, .bluesl, .bluesr {text-align:left;margin-left:0; margin-right:0; width:100%; float:none;}
 
 	.showsmall {display:block;}
 
